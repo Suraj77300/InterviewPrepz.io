@@ -33,7 +33,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-<body style="background-color:#F0F0F0">
+<body style="background-color:azure">
 
 	<div class="loader"></div>
 	
@@ -53,19 +53,7 @@
 	
 	<header>
 	
-		<div class="top-heading">
-			<div class="container">
-				<div class="contact-info pull-left">
-					<a><span class="fa fa-phone"></span>+91 8888888888</a>
-				</div>
-				<ul class="social-icons pull-right">
-					<li><a href="#" class="icon fa fa-facebook"></a></li>
-					<li><a href="#" class="icon fa fa-twitter"></a></li>
-					<li><a href="#" class="icon fa fa-pinterest-p"></a></li>
-					<li><a href="#" class="icon fa fa fa-google-plus"></a></li>
-				</ul>
-			</div>
-		</div>
+		
 
         <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
             <div class="container">
@@ -122,6 +110,24 @@
 
         
     </header>
+	
+	<div class="banner">
+    	<div class="opacity_overlay">
+    		<div class="info">
+    			<h2 style="color:yellow">InterviewPrepz </h2>
+				<h2 style="font-size:25px">Technical interview questions on Java<h2 style="font-size:15px"></h2></h2>
+    			<h2 style="font-size:20px">Designed for students, freshers and working professionals</h2>
+				<h2 style="font-size:10px;text-align:right">Developed By SIS.....</h2>
+    			<hr>
+    			<h3>We believe everyone deserves</h3>
+    			<h3>The best opportunity</h3>
+				<br><br> <br><br> <br><br> <br><br> 
+    		</div>
+    		
+    		
+    		
+    	</div>
+    </div>
 		<div class="projects">
 		<div class="container">
 		
@@ -129,12 +135,6 @@
 			<hr>
 			
 			<div class="news">
-			
-				<div class="date">
-				<div class="wrap">
-					<h4>Basic Questions</h4>
-				</div>
-				</div>
 				
 				<div class="row">
 					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
@@ -698,6 +698,322 @@ It is used for clean up processing just before the object is garbage collected.
 						</div>
 					</div>		
 				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap" >
+							
+								<div class="heading">
+									<h5  style="color:black">* What is abstract class in java</h5>
+									<p  style="color:black">
+									
+  <b>-</b> If any class have a abstract methods in class then it is called a abstract class. In abstract class we can also have normal methods.<br><br>
+ <b>-</b> A class which is declared as abstract is known as an abstract class. 
+  It can have abstract and non-abstract methods. <br><br>
+  <b>-</b> It needs to be extended and its method implemented. It cannot be instantiated
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5  style="color:black">* Explain the interface concept in java?</h5>
+									<p  style="color:black"> <b>-</b> It is used to specify a behaviour that a class must implement.
+  It is like a contract which defines a set of rules or specification while implementing that interface.<br><br>
+  <b>-</b>Interface defines what class can do and does not define how the class will do it.<br><br>
+  <b>-</b>In interfaces we only have abstract methods and all members are public and has only static and final variables.
+  Since java 8 it can have static and default methods.<br><br>
+  <b>-</b>It supports multiple inheritance.
+  The definition of the abstract methods in the interfaces can be derived by child classes using the word implements.
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap" >
+							
+								<div class="heading">
+									<h5  style="color:black">* What is Synchronization class in java</h5>
+									<p  style="color:black"><b>-</b> In Multi-threaded environment if multiple threads tries to access the same resource... In that case synchronization is used to keep the all concurrent threads
+in sync.
+It avoids memory consistency errors caused due to inconsistency view of shared memory.<br><br>
+<b>-</b> When multiple threads try to access the same object we use the synchronized keyword(concept ) to acquire the locks on that object and that only one particular
+thread will be allowed to access the object. Once the process is completed other thread can access the object. <br><br>
+<b>-</b> Simply synchronization is used to allow the object to be accessed by one thread at a time due avoid memory consistence errors due to inconsistency view
+of shared memory.
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5  style="color:black">* What is a thread and process?</h5>
+									<p  style="color:black"> <b>-</b> consider an operating system which operates the programs <br><br>
+<b>-</b> The running instance of that program is called a process.<br><br>
+<b>-</b> A thread is a subset of that process.<br><br>
+<b>-</b> Every process has a thread called as main thread.<br><br>
+<b>-</b> Every process has a set of tasks to be performed and all the tasks are completed sequentially by the main thread.<br><br>
+<b>-</b> If there is any heavier tasks in the main thread and takes more time the tasks after that will be blocked.<br><br>
+<b>-</b> So inorder to resolved this we can create a user thread and shift that heavier task to user thread so that other thread can be executed.<br><br>
+<b>-</b> This way we can achieve concurrent programming.
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap" >
+							
+								<div class="heading">
+									<h5  style="color:black">* Difference between thread and process</h5>
+									<p  style="color:black"><b>Thread :<br> </b>
+									<b>-</b> Thread is a subset of process<br>
+							       <b>-</b> Thread can contact other threads directly<br>
+									<b>-</b> Main thread changes may effect child threads<br>
+									<b>-</b> Runs in shared memory spaces<br>
+									<b>-</b> Thread is controlled by programmer<br>
+									<b>-</b> Threads are dependant <br><br>
+									<b> Process</b><br>
+									<b>-</b> Runnning instance of program is called process	<br>
+									<b>-</b> Uses inter communication process to <br>  communicate with other process  <br>    
+									<b>-</b> Parent process changes wont effect child process		<br>		
+									<b>-</b> Runs in seperate memory spaces<br>
+									<b>-</b> Process is controlled by OS	<br>							
+									<b>-</b> Process are independant<br>
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5  style="color:black">* Can the static methods can be overloaded.?</h5>
+									<p  style="color:black"> <b>-</b> Yes two or more static methods can be overloaded having same name and different parameters or different argument type.<br><br>
+<b>-</b> Yeah its possible
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+					<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap" >
+							
+								<div class="heading">
+									<h5  style="color:black">* Why the main method in java is static</h5>
+									<p  style="color:black"><b>- </b> Firstly the execution of an java program starts from the main method<br><br>
+<b>- </b> Static methods belongs to the class... they are class methods.<br><br>
+<b>- </b> So main method is static so that JVM can call the main method based on class name itself and start its execution without creating an object
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5  style="color:black">* Can the static methods be overridden?</h5>
+									<p  style="color:black"> <b>-</b> No, static methods cannot be overridden...Its because overridding or dynamic polymorphism is done at the run time but the static methods are loaded at compile time.<br><br>
+<b>-</b> Hence the static methods cannot be overridden.
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap" >
+							
+								<div class="heading">
+									<h5  style="color:black">* What is the main objective of garbage collection ?</h5>
+									<p  style="color:black"><b>-</b> The main objective of the garbage collection is to clear the spaces which are occupied by unnecessary and unreachable objects.<br><br>
+<b>-</b> Sometimes we have objects in the heap memory which no references to it which are of no use... in that case garbage collection removes those type of objects.<br><br>
+<b>-</b> It ensures that it uses the memory efficiently.
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5  style="color:black">* What is Class Loader ??</h5>
+									<p  style="color:black"> <b>-</b> Java Classloader is the program that belongs to JRE (Java Runtime Environment). The task of ClassLoader is to load the required classes and interfaces 
+  to the JVM when required. <br><br>
+
+<b>- Example :</b>  To get input from the console, we require the scanner class. And the Scanner class is loaded by the ClassLoader.
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap" >
+							
+								<div class="heading">
+									<h5  style="color:black">* What happens when there are multiple main methods in the same class with same signature and parameters PSVM() ?</h5>
+									<p  style="color:black"><b>-</b> The program can't compile as the compiler says that the method has been already defined inside the class.
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5  style="color:black">* What is Multiple inheritance ??</h5>
+									<p  style="color:black"> <b>-</b>  A child class inheriting the properties from multiple parent class is called multiple inheritance.
+   <br><br>
+
+<b> - </b> The reason it is difficult to implement the multiple inheritance in java is if two parent class have same methods then it becomes difficult for
+  child class to identify which method from parent class needs to called, So multiple inheritance is not possible in java due to this ambiguity<br><br>
+  <b> - </b> However multiple inheritance concept is achievable through interfaces and we can implement multiple interfaces in the same class.
+
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article" style="background-color:white;border-style:outset;border-width:4px;border-color:lightgrey">
+							<div class="wrap" >
+							
+								<div class="heading">
+									<h5  style="color:black">* What Shallow copy and deep copy in java ?</h5>
+									<p  style="color:black"><b>-</b> In java  we have two types to copy the object values<br>
+
+Consider below code <br>
+
+Class Rectangle <br>
+{<br>
+   int length=58;<br>
+   int breadth= 57;<br>
+}<br><br>
+Consider one object Rectangle Rect1 = new Rectangle();<br><br>
+<b> Shallow copy :</b><br><br>
+
+  It indicates it just creates a new reference and it points out to the same object<br>
+  Rectangle obj2 = obj1;<br><br>
+
+<b> Deep copy :</b><br><br>
+
+  In a deep copy, we create a new object and copy the old object value to the new object.<br> Example -<br>
+  Rectangle obj3 = new Rectangle();<br>
+  Obj3.length = obj1.length;<br>
+  Obj3.breadth = obj1.breadth;<br><br>
+   Now we see that we need to write the number of codes for this deep copy. So to reduce this, In java, there is a method called clone(). 
+<br><br>
+The clone() will do this deep copy internally and return a new object. And to do this we need to write only 1 line of code. 
+That is <br><b>-</b>  Rectangle obj2 = obj1.clone();
+
+  <p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div
 				
 				
 				
